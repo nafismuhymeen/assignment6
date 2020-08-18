@@ -67,9 +67,7 @@ function searchSong () {
               else {
                 result.innerHTML = `<div class="single-lyrics text-center">
                 <h2 class="text-success mb-4">${songTitle} - ${artist}</h2>
-                <pre class="lyric text-white">
-                    ${data.lyrics}
-                </pre>
+                <pre class="lyric text-white">${data.lyrics}</pre>
             </div>`;
           }
           })
